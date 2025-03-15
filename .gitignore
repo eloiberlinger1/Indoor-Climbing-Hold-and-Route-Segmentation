@@ -1,8 +1,8 @@
-*.jpg
-*.png
 **/.DS_Store
-ml/output
 via
 **_checkpoints/
 **__pycache__/
-ml/weights/
+detectron2/
+venv/
+ml/weights/model_final.pth
+*jpg

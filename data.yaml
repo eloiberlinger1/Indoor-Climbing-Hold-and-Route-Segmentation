@@ -1,0 +1,10 @@
+
+    path: /Users/eloi/Documents/dev/Indoor-Climbing-Hold-and-Route-Segmentation/data  # Chemin vers le dossier de données
+    train: images/train  # Images d'entraînement
+    val: images/val  # Images de validation
+    
+    # Classes
+    names:
+      0: hold
+      1: volume
+    
