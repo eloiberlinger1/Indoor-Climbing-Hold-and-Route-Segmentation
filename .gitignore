@@ -6,7 +6,6 @@ detectron2/
 venv/
 ml/weights/model_final.pth
 *jpg
-restruct/data/old_datasetdata/sm.zip
 data/sm.zip
 restruct/data/old_dataset/model/*.pt
 restruct/data/old_dataset/model/*.pth

@@ -7,4 +7,3 @@
 Change format to PNG (this can be changed if there is really a lot of images in the future)
 
 Adapt coord of the annotations.
-
