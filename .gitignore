@@ -4,7 +4,7 @@ via
 **__pycache__/
 detectron2/
 venv/
-ml/weights/model_final.pth
+*.pth
 *jpg
 data/sm.zip
 restruct/data/old_dataset/model/*.pt
