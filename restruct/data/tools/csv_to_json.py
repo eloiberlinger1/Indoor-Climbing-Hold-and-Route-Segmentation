@@ -1,5 +1,6 @@
 import csv
 import json
+import argparse
 
 def csv_to_json(csv_file_path, json_file_path):
     # Dictionary to hold the JSON structure
@@ -36,7 +37,10 @@ def csv_to_json(csv_file_path, json_file_path):
     with open(json_file_path, mode='w') as jsonfile:
         json.dump(json_data, jsonfile, indent=4)
 
-# Example usage
-csv_file_path = 'new_dataset/annotations.csv'
-json_file_path = 'new_dataset/converted_annotations.json'
-csv_to_json(csv_file_path, json_file_path)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Convertir un fichier CSV en JSON')
+    parser.add_argument('csv_file', help='Chemin vers le fichier CSV d\'entrée')
+    parser.add_argument('json_file', help='Chemin vers le fichier JSON de sortie')
+    
+    args = parser.parse_args()
+    csv_to_json(args.csv_file, args.json_file)
